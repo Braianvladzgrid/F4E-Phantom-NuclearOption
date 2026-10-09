@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c795eb5f05674f989422cc4bed305ff9, type: 3}
+  m_Name: OpAddF4EToHangars
+  m_EditorClassIdentifier: 
+  aircraftJsonKey: F4EPhantom
+  hangars:
+  - hangarUnitJsonKey: AssaultCarrier1
+    hangarNames:
+    - hangar_F
+    - hangar_M
+    - hangar_R1
+    - hangar_R2
+    - hangar_R3
+  - hangarUnitJsonKey: Destroyer1
+    hangarNames:
+    - Hull_hangarFloor
+  - hangarUnitJsonKey: FleetCarrier1
+    hangarNames:
+    - hangar_F
+    - hangar_R1
+    - hangar_R2
+    - hangar_R3
+  - hangarUnitJsonKey: Frigate1
+    hangarNames:
+    - frigate1_hangar
+  - hangarUnitJsonKey: Helipad
+    hangarNames:
+    - Helipad
+  - hangarUnitJsonKey: SmallCarrier1
+    hangarNames:
+    - hangar
+  - hangarUnitJsonKey: hangar_med
+    hangarNames:
+    - hangar_med
+  - hangarUnitJsonKey: revetment1
+    hangarNames:
+    - revetment1
+  - hangarUnitJsonKey: shelter1
+    hangarNames:
+    - shelter1

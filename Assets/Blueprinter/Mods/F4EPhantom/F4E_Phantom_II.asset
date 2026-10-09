@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 775486429, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+  m_Name: F4E_Phantom_II
+  m_EditorClassIdentifier: 
+  typeIdentity:
+    surface: 0
+    air: 1
+    missile: 0
+    radar: 0.6
+    strategic: 0
+  roleIdentity:
+    antiSurface: 0.456
+    antiAir: 1
+    antiMissile: 0
+    antiRadar: 0.328
+  jsonKey: F4EPhantom
+  unitName: F-4E Phantom II
+  bogeyName: 
+  description: F-4E Phantom II. Experimental integration with an imported exterior
+    and adapted native flight systems.
+  code: F-4E
+  visibleRange: 3000
+  iconRange: 100000
+  radarSize: 0.08
+  friendlyIcon: {fileID: 21300000, guid: 81ac6e8bbe931d145b97d25717732505, type: 3}
+  hostileIcon: {fileID: 21300000, guid: 81ac6e8bbe931d145b97d25717732505, type: 3}
+  mapIcon: {fileID: 21300000, guid: 81ac6e8bbe931d145b97d25717732505, type: 3}
+  mapOrient: 1
+  IsObstacle: 1
+  iconSize: 1
+  mapIconSize: 1.2
+  captureCapacity: 0
+  captureStrength: 0
+  captureDefense: 0
+  length: 19.2
+  width: 11.78
+  height: 5.15
+  value: 40
+  mass: 13750
+  manpower: 1
+  armorTier: 1
+  damageTolerance: 1
+  CanSlingLoad: 0
+  unitPrefab: {fileID: 8758609634348326965, guid: 2e1cb5736115b8640a13fe00c1f36ee5,
+    type: 3}
+  spawnOffset: {x: 0, y: 2.55, z: -2.7}
+  disabled: 0
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 0
+  minEditorHeight: 0
+  maxEditorHeight: 10000
+  aircraftParameters: {fileID: 11400000, guid: 3fa186760b28ecd49886bd193b01d5d4, type: 2}
+  aircraftInfo:
+    emptyWeight: 13750
+    maxSpeed: 1240
+    stallSpeed: 250
+    maneuverability: 7
+    maxWeight: 23000
+  restRotation: {x: -0.7, y: 0, z: 0}

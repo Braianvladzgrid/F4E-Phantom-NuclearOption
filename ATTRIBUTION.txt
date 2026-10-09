@@ -1,0 +1,6 @@
+F-4E exterior model attribution
+
+This mod includes an adapted exterior model based on "F-4E Phantom II"
+by Kenny3D89: https://sketchfab.com/3d-models/f-4e-phantom-ii-414342cad1e84b20aadace5de69c9569
+
+Licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/

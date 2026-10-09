@@ -1,0 +1,12 @@
+Library/
+Temp/
+Logs/
+obj/
+Builds/
+BlueprinterCache/
+UserSettings/
+Assets/Blueprinter/_donotship/
+*.dll
+*.exe
+*.nobp
+*.log
