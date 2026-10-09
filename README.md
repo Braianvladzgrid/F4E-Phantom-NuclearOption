@@ -7,7 +7,7 @@ A playable F-4E Phantom II aircraft add-on for Nuclear Option, built with Bluepr
 - Four underwing pylons and two fuselage weapon stations.
 - Twin exhaust outlets and throttle-controlled twin afterburner visuals.
 - Working native cockpit displays, HUD, flight systems, weapons and landing gear.
-- Rank 3, $40 million in-game purchase price.
+- Rank 1, $20 million in-game purchase price.
 
 The flight and cockpit systems are adapted from the native FS-12. This is a simple
 playable aircraft integration, not a full historical F-4 systems simulation.
@@ -18,7 +18,7 @@ playable aircraft integration, not a full historical F-4 systems simulation.
 - Blueprinter 2.0.1 or later
 
 ## Install
-Download `F-4E Phantom II_1.1.4.nobp` from [Releases](https://github.com/Braianvladzgrid/F4E-Phantom-NuclearOption/releases).
+Download `F-4E Phantom II_1.1.5.nobp` from [Releases](https://github.com/Braianvladzgrid/F4E-Phantom-NuclearOption/releases).
 Close the game and place the file in `BepInEx/plugins/f4ephantom/`.
 Keep only one active version of this aircraft. NOMM availability depends on approval
 of its NOMNOM registry submission.
@@ -54,3 +54,6 @@ of distributing copied mesh derivatives. In-game appearance should be reported
 through this repository's issues if any problems occur.
 
 ![Pylons (Unity editor preview)](docs/inspection-pylons.png)
+
+## Version 1.1.5
+Purchase price reduced to $20 million and required rank reduced to 1. The build validates both values; aircraft geometry, cockpit and weapon systems are retained.

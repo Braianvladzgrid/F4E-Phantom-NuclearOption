@@ -273,7 +273,7 @@ internal static class F4EPrototypeFactory
         SetFloat(serialized, "width", 11.78f);
         SetFloat(serialized, "height", 5.15f);
         SetFloat(serialized, "mass", 13750f);
-        SetFloat(serialized, "value", 40f);
+        SetFloat(serialized, "value", 20f);
         var parametersProperty = serialized.FindProperty("aircraftParameters");
         var parametersPath = ModRoot + "/F4E_Parameters.asset";
         var parameters = AssetDatabase.LoadMainAssetAtPath(parametersPath);
@@ -287,7 +287,7 @@ internal static class F4EPrototypeFactory
         }
         var parametersData = new SerializedObject(parameters);
         parametersData.FindProperty("aircraftName").stringValue = "F-4E Phantom II";
-        parametersData.FindProperty("rankRequired").intValue = 3;
+        parametersData.FindProperty("rankRequired").intValue = 1;
         parametersData.ApplyModifiedPropertiesWithoutUndo();
         parametersProperty.objectReferenceValue = parameters;
         var icon = AssetDatabase.LoadAssetAtPath<Sprite>(IconPath);

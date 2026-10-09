@@ -52,9 +52,9 @@ internal static class F4ETestBuild
                 if (type == LogType.Error || type == LogType.Exception || type == LogType.Assert) buildError = true;
             };
             Application.logMessageReceived += onLog;
-            try { ModBuilder.Build("F4EPhantom", "F-4E Phantom II", "1.1.4", run); }
+            try { ModBuilder.Build("F4EPhantom", "F-4E Phantom II", "1.1.5", run); }
             finally { Application.logMessageReceived -= onLog; }
-            var package = Path.Combine(run, "F-4E Phantom II_1.1.4.nobp");
+            var package = Path.Combine(run, "F-4E Phantom II_1.1.5.nobp");
             if (buildError || !File.Exists(package) || new FileInfo(package).Length == 0)
                 throw new InvalidOperationException("Build failed or produced no fresh package. See Editor.log.");
             string hash;

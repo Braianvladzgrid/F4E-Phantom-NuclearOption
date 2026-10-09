@@ -74,12 +74,12 @@ internal static class F4EIntegrationAudit
                         throw new InvalidOperationException("Native exterior would reappear when switching cameras.");
                 }
                 var definition = new SerializedObject(aircraft.FindProperty("definition").objectReferenceValue);
-                if (Mathf.Abs(definition.FindProperty("value").floatValue - 40f) > 0.001f)
+                if (Mathf.Abs(definition.FindProperty("value").floatValue - 20f) > 0.001f)
                     throw new InvalidOperationException("Aircraft price mismatch.");
                 var parameters = new SerializedObject(definition.FindProperty("aircraftParameters").objectReferenceValue);
-                if (parameters.FindProperty("rankRequired").intValue != 3)
+                if (parameters.FindProperty("rankRequired").intValue != 1)
                     throw new InvalidOperationException("Aircraft rank mismatch.");
-                report.AppendLine("View references contain only F-4E exterior; rank 3 and price 40 verified.");
+                report.AppendLine("View references contain only F-4E exterior; rank 1 and price 20 verified.");
             }
             for (var i = 0; i < F4EGearIntegration.Wheels.Length; i++)
             {

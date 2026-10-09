@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: F4E_Parameters
   m_EditorClassIdentifier: 
   aircraftName: F-4E Phantom II
-  rankRequired: 3
+  rankRequired: 1
   airfoils:
   - name: Fighter1_canards
     liftCoef:
